@@ -18,8 +18,40 @@ body::before {
   .news-input {
     width: 50%;
   }
+  .maps {
+    width: 100%;
+    height: 350px;
+  }
 }
 
+@media screen and (max-width: 980px){
+  .maps {
+    width: 100%;
+    height: 350px;
+  }
+
+  .social-links{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px){
+   .maps {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+   .maps {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 980px){
+	
 .card-body img{
 	height: 150px;
 	width: 150px;
